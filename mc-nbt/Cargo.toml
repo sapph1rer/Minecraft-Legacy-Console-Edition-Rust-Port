@@ -1,0 +1,11 @@
+[package]
+name = "mc-nbt"
+description = "Port of Minecraft.World NBT (Tag family + NbtIo)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+mc-core = { path = "../mc-core" }
+indexmap = "2"

@@ -1,0 +1,9 @@
+[package]
+name = "mc-core"
+description = "Port of Minecraft.World foundation types: Random, Mth, Pos, ChunkPos, Vec3, AABB, Java-style data IO"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
