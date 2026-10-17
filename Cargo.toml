@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["mc-core", "mc-nbt", "mc-storage", "mc-world", "mc-level", "mc-worldgen", "mc-client"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "LicenseRef-Proprietary-Study-Only"
+publish = false

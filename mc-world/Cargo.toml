@@ -1,0 +1,10 @@
+[package]
+name = "mc-world"
+description = "Port of Minecraft.World core registries: Material, Facing/Direction, Tile table, Biome table (layer 3)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+mc-core = { path = "../mc-core" }

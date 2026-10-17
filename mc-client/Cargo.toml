@@ -1,0 +1,27 @@
+[package]
+name = "mc-client"
+description = "Layer 10 (start): world viewer — chunk mesher, texture atlas mapping, wgpu/winit renderer"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+mc-core = { path = "../mc-core" }
+mc-world = { path = "../mc-world" }
+mc-level = { path = "../mc-level" }
+mc-storage = { path = "../mc-storage" }
+mc-worldgen = { path = "../mc-worldgen" }
+bytemuck = { version = "1", features = ["derive"] }
+png = "0.17"
+wgpu = "22.1"
+winit = "0.30"
+pollster = "0.3"
+glam = "0.29"
+lewton = "0.10.2"
+cpal = { version = "0.18.2", optional = true }
+
+[features]
+default = ["audio"]
+# real-time output through the OS audio API (WASAPI on Windows); without it sounds are decoded and mixed but not played
+audio = ["dep:cpal"]

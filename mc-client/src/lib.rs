@@ -1,0 +1,40 @@
+//! Layer 10 (start): a world viewer. Pure-CPU parts (`icons`, `blocks`, `mesh`, `world`) are testable
+//! headless; `render` drives wgpu/winit.
+#![allow(clippy::too_many_arguments)]
+pub mod blocks;
+pub mod shapes;
+pub mod redstone;
+pub mod icons;
+pub mod mesh;
+pub mod world;
+pub mod render;
+pub mod physics;
+pub mod hud;
+pub mod ui;
+pub mod inventory;
+pub mod screens;
+pub mod entity;
+pub mod model;
+pub mod itemmesh;
+pub mod hand;
+pub mod entrender;
+pub mod game;
+pub mod sky;
+pub mod skyrender;
+pub mod audio;
+pub mod soundtypes;
+pub mod particles;
+pub mod path;
+pub mod mob;
+pub mod mobs;
+pub mod mobrender;
+pub mod gamemobs;
+pub mod save;
+pub mod weather;
+pub mod meshpool;
+pub mod stream;
+pub mod chest;
+pub mod piston;
+pub mod pearl;
+pub mod survival;
+pub mod tnt;

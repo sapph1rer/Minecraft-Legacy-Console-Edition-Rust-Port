@@ -1,0 +1,36 @@
+seed: 9096725835101881747
+world width: 54 chunks
+generated: 54x54 chunks (864x864 blocks)
+level type: Normal
+elapsed: 3.21s
+
+biomes (share of surface columns):
+   0 Ocean                   14.2%
+   1 Plains                   3.7%
+   2 Desert                  22.5%
+   3 Extreme Hills            4.9%
+   4 Forest                  16.8%
+   5 Taiga                    9.4%
+   6 Swampland                4.0%
+   7 River                    6.3%
+  14 MushroomIsland           0.4%
+  15 MushroomIslandShore      0.1%
+  16 Beach                    3.1%
+  17 DesertHills              1.4%
+  18 ForestHills              0.8%
+  19 TaigaHills               1.5%
+  20 Extreme Hills Edge       2.4%
+  21 Jungle                   8.0%
+  22 JungleHills              0.4%
+
+block counts:
+    0 air            47870943
+    1 stone          40125988
+    2 grass          329175
+    3 dirt           1656344
+    7 unbreakable    1866493
+    9 calmWater      2285295
+   10 lava           344063
+   12 sand           770573
+   24 sandStone      301882
+  110 mycel          732
